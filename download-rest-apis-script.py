@@ -85,11 +85,11 @@ def get_output_path(asset_id, version, classifier):
     return f"{output_dir}{asset_id}_{version}.{classifier}.zip"
 
 def main():
-    client_id = "370ce9bc3f3643028236bb5976334d00"
-    client_secret = "8819b509682245B6aF947a26cB2a38dD"
+    client_id = "####"
+    client_secret = "####"
     access_token = get_access_token(client_id, client_secret)
     #organization_id = get_organization_id(access_token)
-    organization_id = "8c2fb2f3-907e-4fac-a368-09580403babb"
+    organization_id = "####"
     #print(f"access_token: {access_token}")
     #print(f"Organization ID: {organization_id}")
     try:
